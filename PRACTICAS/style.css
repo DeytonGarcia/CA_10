@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 100px; 
+    background-color: rgba(200, 200, 200, 0.5)
+}
+
+body {
+    background-image: url("img/vallegrande.png");
+    background-size: cover;
+    background-position: center;
+   
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    font-size: 19px;
+    border-radius: 15px;
+    border-color: azure;
+}
+
+.opciones {
+    float: right;
+}
+
+.logo {
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;}
+
+     input[type="submit"] {
+        background-color: red; 
+        color: white; 
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer; 
+     }

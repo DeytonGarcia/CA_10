@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>formulario</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div style="position:relative;">
+		<form action="/submit-form" method="POST">
+            <img src="img/Logo-VG_Tpt02.png" alt="Descripción de la imagen" class="logo">
+			<h2>BIENVENIDOS</h2>
+			<div class="opciones">
+                <input type="radio" id="analisis" name="opciones" value="analisis">
+                <label for="analisis">Análisis de Sistemas</label>
+
+                <input type="radio" id="produccion" name="opciones" value="produccion">
+                <label for="produccion">Producción Agraria</label>
+            </div>
+            <H1></H1>
+		
+			<input type="text" id="nombre" name="nombre" placeholder="  Nombre completo"><br>
+
+			
+			<input type="text" id="apellidos" name="apellidos" placeholder="  Apellidos"><br>
+
+			
+			<input type="text" id="edad" name="edad" placeholder="  Ingresa tu edad" pattern="\d+"><br>
+
+			
+			<input type="text" id="correo" name="correo" placeholder="  Correo electrónico"><br>
+
+			
+			<input type="password" id="contrasena" name="contrasena" placeholder="  Contraseña"><br>
+			
+
+			<a href="/recuperar-contrasena">¿Olvidó su contraseña?</a>
+			
+
+			<label for="privacy_policy_checkbox">
+				<input type="checkbox" name="privacy_policy" id="privacy_policy_checkbox">
+				Acepto la política de privacidad y los términos y condiciones
+			</label>
+<h1></h1>
+			<input type="submit" value="REGISTRARME">
+			</form>
+            <h1></h1>
+	</div>
+</body>
+
+</html>
